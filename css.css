@@ -41,7 +41,7 @@
 
 .sidebar{
     width: 75px;
-    min-height: 178vh;
+    min-height: 185vh;
     box-sizing: border-box;
     padding: 20px 10px;
     background: #172554;
@@ -279,3 +279,32 @@
     text-decoration: underline;
 }
 
+/*FOOTER*/
+.footer{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    color: #475569;
+    border-top: 1px solid #dbeafe;
+    border-radius: 12px 12px 0 0;
+    box-sizing: border-box;
+}
+.footer p{
+    margin: 8px 0;
+    font-size: 14px;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+footer a{
+    color: #0284c7;
+    text-decoration: none;
+}
+fotter a:hover{
+    text-decoration: underline;
+}
