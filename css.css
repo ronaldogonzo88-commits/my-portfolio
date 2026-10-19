@@ -242,3 +242,40 @@
         align-self: flex-start;
     }
 }
+/*PROJECTS*/
+
+.projects, .contact{
+    background: white;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #dbeafe;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #cbd5e1;
+    min-width: 0;
+}
+.projects h2{
+    margin-top: 0;
+    color: #172554;
+}
+.projects p, .contact p{
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+    color: #475569;
+}
+.projects h3{
+    color: #172554;
+    font-size: 15px;
+}
+.projects .explore-btn{
+    display: inline-block;
+    margin-top: 5px;
+}
+.contact a{
+    color: #38bdf8;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+
