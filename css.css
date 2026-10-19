@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #172554;
+    border-bottom: 1px solid #dbeafe;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #1e3a8a;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.search-box input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.header-actions{
+    display: flex;
+    align-items:center ;
+    gap: 15px;
+}
+
+.header-actions button {
+    background: #1e293b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*NAVIGATION*/
+
+.sidebar{
+    width: 75px;
+    min-height: 178vh;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    background: #172554;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    flex-shrink: 0;
+}
+.sidebar.expanded{
+    width: 160px;
+}
+.toggle{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.sidebar nav{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.sidebar a{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    height: 50px;
+    padding: 0 12px;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 12px;
+}
+.sidebar a span{
+    min-width: 25px;
+    text-align: center;
+    font-size: 22px;
+}
+.sidebar a lebel{
+    display: none;
+}
+.sidebar.expanded a lebel{
+    display: inline;
+}
+.sidebar a:hover{
+    background: #343343;
+}
