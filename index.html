@@ -136,5 +136,24 @@
             <a href="https://wa.me/265888342079" target="" rel="noopener moreferrer">Contact Me</a>
         </div>
     </footer>
+    
+    <script>
+    const sidebar = document.getElementById("sidebar");
+    const toggle = document.getElementById("toggle");
+    toggle.addEventListener("click",function (e){
+        e.stopPropagation();
+        sidebar.classList.toggle("expanded");
+    });
+    document.addEventListener("click", function(e){
+        if(!sidebar.contains(e.target)){
+            sidebar.classList.remove("expanded");
+        }
+    })
+    /* its for changing background color*/
+    const themeToggle=
+    document.getElementById("themeToggle");
+    themeToggle.addEventListener("click",()=>{
+        document.body.style.backgroundColor ="grey";  });
+    </script>
 </body>
 </html>
